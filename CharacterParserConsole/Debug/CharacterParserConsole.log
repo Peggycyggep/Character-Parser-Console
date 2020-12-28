@@ -1,0 +1,11 @@
+﻿  CharacterParserConsole.cpp
+c:\users\peggy\documents\chinese\characterparserconsole\characterparserconsole\characterparserconsole.cpp(43): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(204): note: 請參閱 'wcsncpy' 的宣告
+c:\users\peggy\documents\chinese\characterparserconsole\characterparserconsole\characterparserconsole.cpp(73): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: 請參閱 'fopen' 的宣告
+c:\users\peggy\documents\chinese\characterparserconsole\characterparserconsole\characterparserconsole.cpp(75): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 請參閱 'sprintf' 的宣告
+c:\users\peggy\documents\chinese\characterparserconsole\characterparserconsole\characterparserconsole.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: 請參閱 'fopen' 的宣告
+  CharacterParserConsole.vcxproj -> C:\Users\Peggy\Documents\chinese\CharacterParserConsole\Debug\CharacterParserConsole.exe
+  CharacterParserConsole.vcxproj -> C:\Users\Peggy\Documents\chinese\CharacterParserConsole\Debug\CharacterParserConsole.pdb (Partial PDB)
