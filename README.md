@@ -1,5 +1,5 @@
 # Character-Parser-Console
-Console application application created to experiment unicode programming.
+Console application created for practicing unicode programming.
 
 https://www.tutorialspoint.com/utf-8-validation-in-cplusplus
 
