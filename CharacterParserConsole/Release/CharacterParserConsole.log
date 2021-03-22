@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  CharacterParserConsole.cpp
+CharacterParserConsole.cpp(43): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_wstring.h(204): note: 請參閱 'wcsncpy' 的宣告
+CharacterParserConsole.cpp(82): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 請參閱 'fopen' 的宣告
+CharacterParserConsole.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 請參閱 'sprintf' 的宣告
+CharacterParserConsole.cpp(85): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 請參閱 'fopen' 的宣告
+  正在產生程式碼
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  CharacterParserConsole.vcxproj -> C:\Users\Peggy\Documents\chinese\CharacterParserConsole\Release\CharacterParserConsole.exe

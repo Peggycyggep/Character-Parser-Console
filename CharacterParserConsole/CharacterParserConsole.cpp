@@ -61,7 +61,7 @@ bool CHARMAP_Check(CHARMAP *map, wchar_t *value)
 
 int toCodePoint(const char *u, int *out);
 
-int main()
+int main(int argn, char **args)
 {
 	char szFilename[1024];
 	char szPage[1024];
@@ -70,9 +70,18 @@ int main()
 	FILE *pFile;
 	bool bBody, bTitle;
 	CHARMAP * pMap = CHARMAP_Create();
-	FILE * pFileOut = fopen("C:\\Users\\Peggy\\Documents\\chinese\\Story\\Letters.txt", "wt, ccs=UTF-8");
-
-	sprintf(szFilename, "C:\\Users\\Peggy\\Documents\\chinese\\Story\\寶貝盒1-1.txt");
+	FILE * pFileOut = 0;
+	
+	if (argn < 3)
+	{
+		printf("not enough parameter\n");
+		return -1;
+	}
+	
+	//pFileOut = fopen("C:\\Users\\Peggy\\Documents\\chinese\\Story\\Letters.txt", "wt, ccs=UTF-8");
+	pFileOut = fopen(args[1], "wt, ccs=UTF-8");
+	//sprintf(szFilename, "C:\\Users\\Peggy\\Documents\\chinese\\Story\\寶貝盒1-1.txt");
+	sprintf(szFilename, args[2]);
 	pFile = fopen(szFilename, "r");
 
 	fread(szPage, sizeof(char), 1024, pFile);
